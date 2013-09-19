@@ -2,7 +2,7 @@
 PRODUCT_RELEASE_NAME := Nexus7
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/asus/grouper/full_grouper.mk)
+$(call inherit-product, device/asus/flo/full_flo.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/mahdi/configs/common.mk)
